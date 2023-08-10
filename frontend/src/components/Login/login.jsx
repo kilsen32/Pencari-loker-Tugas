@@ -15,18 +15,22 @@ const Login = () => {
         />
       </div>
       <div className="formLogin">
-        <form action="">
+        <form action="/login">
+          <h1>Login</h1>
           <input type="text" placeholder="Username" required id="username"/>
           <br />
-          <br />
           <input type="password" placeholder="Password" required id="password"/>
-        </form>
         <div className="buttonLogin">
         <button>Login</button>
+        <div className="buttonMasuk">
+          <button>Masuk dengan Google</button>
+        </div>
+          <button>Masuk dengan Facebook</button>
         </div>
         <p>
           Dont have an account? <a href="/register">Register</a><br/>
         </p>
+        </form>
       </div>
     </div>
   );
